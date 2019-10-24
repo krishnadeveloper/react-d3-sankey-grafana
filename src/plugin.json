@@ -1,0 +1,26 @@
+{
+    "type": "panel",
+    "name": "React D3 SanKey - Grafana",
+    "id": "react-d3-sankey-grafana-kkr",
+  
+    "info": {
+      "description": "React D3 SanKey - Grafana",
+      "author": {
+        "name": "Krishna Kumar"
+      },
+      "keywords": ["Sankey Grafana", "React Sankey Grafana", "d3 sankey grafana"],
+      "logos": {
+        "small":"icon/sankey-icon.png",
+        "large":"icon/sankey-icon.png"
+      },
+      "screenshots": [],
+      "version": "1.0",
+      "updated": "%TODAY%"
+    },
+  
+    "dependencies": {
+      "grafanaVersion": "6.3.x",
+      "plugins": []
+    }
+  }
+  

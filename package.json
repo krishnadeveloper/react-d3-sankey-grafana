@@ -1,0 +1,23 @@
+{
+  "name": "react-d3-sankey-grafana",
+  "version": "1.0.0",
+  "description": "React DB Sankey Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Krishna Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest"
+  },
+  "dependencies": {
+    "d3": "^3.5.10",
+    "d3-plugins-sankey": "^1.2.1",
+    "lodash": "^4.17.15"
+  }
+}
